@@ -65,7 +65,7 @@ if __name__ == "__main__":
   from dotenv import load_dotenv, find_dotenv
   load_dotenv(find_dotenv(), override=True)
 
-  st.image('img.png')
+  # st.image('img.png')
   st.subheader('Chat with Documents CHR97')
 
   with st.sidebar:
